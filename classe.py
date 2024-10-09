@@ -43,7 +43,7 @@ class Pessoa:
             self.comendo = False
             print(f"{self.nome} terminou de comer")
         else:
-            print(f"{self.nome} já terminou de comer")
+            print(f"{self.nome} não está comendo")
 
     def dormir(self):
         if self.andando:
