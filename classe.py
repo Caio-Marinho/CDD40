@@ -1,5 +1,5 @@
 class Pessoa:
-    def __init__(self,nome:str,peso:float,idade:int,comendo=False,dormindo=False,andando=False):
+    def __init__(self,nome:str,peso:float,idade:int,comendo:bool=False,dormindo:bool=False,andando:bool=False):
         self.nome = nome
         self.peso = peso
         self.idade = idade
