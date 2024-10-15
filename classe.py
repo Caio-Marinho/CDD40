@@ -98,4 +98,4 @@ class Coelho(Animal):
         super().__init__(nome,cor)
 
     def grunir(self):
-        print(f"O goelho {self.nome} Gruniu")
+        print(f"O coelho {self.nome} Gruniu")
