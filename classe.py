@@ -63,3 +63,11 @@ class Pessoa:
             print(f'{self.nome} acordou')
         else:
             print(f'{self.nome} já está acordado')
+
+class Animal:
+    def __init__(self,nome,cor):
+        self.nome = nome
+        self.cor = cor
+
+    def comer(self):
+        print(f"{self.nome} foi comer")

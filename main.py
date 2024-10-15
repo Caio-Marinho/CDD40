@@ -1,4 +1,4 @@
-from classe import Pessoa
+from classe import Pessoa,Animal
 
 pessoa:Pessoa = Pessoa('caio',65,24)
 """
@@ -12,3 +12,6 @@ print(pessoa.nome)
 pessoa.dormir()
 pessoa.acordar()
 pessoa.comer()
+
+animal = Animal('bx','preta')
+print(animal.comer())
