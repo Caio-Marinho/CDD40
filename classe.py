@@ -79,12 +79,18 @@ class Gato(Animal):
     def miar(self):
         print(f"O gato {self.nome} foi miar")
 
+    def comer(self):
+        print(f"O Gato {self.nome} foi comer")
+
 class Cachorro(Animal):
     def __init__(self,nome,cor):
         super().__init__(nome,cor)
 
     def latir(self):
         print(f"O cachorro {self.nome} latiu")
+
+    def comer(self):
+        print(f"O Cachorro {self.nome} foi comer")
 
 class Vaca(Animal):
     def __init__(self,nome,cor):
@@ -93,9 +99,15 @@ class Vaca(Animal):
     def mugir(self):
         print(f"A vaca {self.nome} mugiu")
 
+    def comer(self):
+        print(f"A Vaca {self.nome} foi comer")
+
 class Coelho(Animal):
     def __init__(self,nome,cor):
         super().__init__(nome,cor)
 
     def grunir(self):
         print(f"O coelho {self.nome} Gruniu")
+
+    def comer(self):
+        print(f"O Coelho {self.nome} foi comer")

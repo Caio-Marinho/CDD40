@@ -14,11 +14,14 @@ pessoa.acordar()
 pessoa.comer()
 
 animal = Animal('bx','preta')
-print(animal.comer())
+animal.comer()
 
 gato = Gato("Frajola","Preto")
 gato.comer()
 gato.miar()
+
+cachorro = Cachorro('rex','Preta')
+cachorro.comer()
 
 vaca = Vaca("mimosa","Preta")
 vaca.comer()
