@@ -21,6 +21,7 @@ gato.comer()
 gato.miar()
 
 cachorro = Cachorro('rex','Preta')
+cachorro.latir()
 cachorro.comer()
 
 vaca = Vaca("mimosa","Preta")
