@@ -1,4 +1,4 @@
-from classe import Pessoa,Animal
+from classe import *
 
 pessoa:Pessoa = Pessoa('caio',65,24)
 """
@@ -15,3 +15,15 @@ pessoa.comer()
 
 animal = Animal('bx','preta')
 print(animal.comer())
+
+gato = Gato("Frajola","Preto")
+gato.comer()
+gato.miar()
+
+vaca = Vaca("mimosa","Preta")
+vaca.comer()
+vaca.mugir()
+
+coelho = Coelho("Algodão","Branco")
+coelho.comer()
+coelho.grunir()
