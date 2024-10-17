@@ -33,7 +33,7 @@ coelho.comer()
 coelho.grunir()
 
 tri = TriAtleta('Caio',65)
-tri.aposetar()
+
 tri.aquecer()
 tri.correr()
 tri.pararCorrer()
