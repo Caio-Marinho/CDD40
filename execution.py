@@ -13,5 +13,6 @@ while True:
             print(texto)
     elif opcao == 3:
         print("Fim de Execução!!")
+        break
     else:
         print("Insira um codigo válido")
